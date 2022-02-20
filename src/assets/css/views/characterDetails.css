@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.visual-info {
+  width: 25%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.main-info {
+  width: 75%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.visual-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+.padding-quote {
+  padding: 30px;
+}
+
+.text-center-quote {
+  text-align: center !important;
+}

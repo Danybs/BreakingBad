@@ -1,0 +1,32 @@
+{
+  "header": {
+    "title": "header"
+  },
+  "home": {
+    "title": "List of characters"
+  },
+  "details": {
+    "title": "Detail of ",
+    "notFound": "No information found for this character.",
+    "name": "Name",
+    "birthday": "Birthday: ",
+    "occupation": "Occupation: ",
+    "status": "Status: ",
+    "nickname": "Nickname: ",
+    "appearance": "List of seasons that the character appeared in: ",
+    "portrayed": "The actor / actress that portrayed the character: ",
+    "category": "Category: ",
+    "better_call_saul_appearance": "List of seasons that the character appeared in Better Call Saul: ",
+    "famousQuote": "Famous phrase",
+    "noQuote": "With out famous phrase"
+  },
+  "error": {
+    "request": "Service request error, try again later.",
+    "response": "Service response error.",
+    "unkownError": "Unknown error."
+  },
+  "key": "value of key",
+  "look": {
+    "deep": "value of look deep"
+  }
+}

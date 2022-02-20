@@ -1,0 +1,18 @@
+{
+  "app": {
+    "baseUrl": {
+      "default": "https://www.breakingbadapi.com"
+    },
+    "version": {
+      "default": "/api"
+    },
+    "controller": {
+      "characters": "/characters",
+      "quote": "/quote"
+    },
+    "timing": {
+      "notifications": 5000
+    },
+    "timeout": 1000
+  }
+}

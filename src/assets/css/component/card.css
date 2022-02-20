@@ -1,0 +1,40 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.card {
+  cursor: pointer;
+  background-color: transparent;
+  height: 300px;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card h1 {
+  position: absolute;
+  font-size: 20px;
+  bottom: 20px;
+  background-color: #13301a;
+  color: #fff;
+  width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .cards {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

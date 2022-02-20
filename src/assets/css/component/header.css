@@ -1,0 +1,22 @@
+header {
+  height: 200px;
+}
+
+header img {
+  width: 200px;
+}
+
+header.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  color: #fff;
+  background-color: #3fb573;
+  font-size: 2em;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+}

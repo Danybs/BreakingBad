@@ -1,0 +1,25 @@
+/* BASIC IMPORTS */
+@import "./assets/css/component/header.css";
+@import "./assets/css/component/card.css";
+@import "./assets/css/views/home.css";
+@import "./assets/css/views/characterDetails.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #000 url("./assets/img/bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+}

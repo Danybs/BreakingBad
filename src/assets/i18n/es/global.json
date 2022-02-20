@@ -1,0 +1,29 @@
+{
+  "header": {
+    "title": "cabecera"
+  },
+  "home": {
+    "title": "Lista de personajes",
+    "notFound": "No se encontraron personajes"
+  },
+  "details": {
+    "title": "Detalle de ",
+    "notFound": "No se a encontrado informacion para este personaje.",
+    "name": "Nombre",
+    "birthday": "Cumpleaños: ",
+    "occupation": "Ocupación: ",
+    "status": "Estado: ",
+    "nickname": "Apodo: ",
+    "appearance": "Lista de temporadas en las que apareció el personaje: ",
+    "portrayed": "El actor/actriz que interpretó al personaje: ",
+    "category": "Categoría: ",
+    "better_call_saul_appearance": "Lista de temporadas en las que apareció el personaje en Better Call Saul: ",
+    "famousQuote": "Frase célebre",
+    "noQuote": "Sin frase célebre"
+  },
+  "error": {
+    "request": "Error en la peticion del servicio, reintentelo mas tarde.",
+    "response": "Error en la respuesta del servicio.",
+    "unkownError": "Error desconocido."
+  }
+}
