@@ -5,7 +5,8 @@ module.exports = {
   entry: "./src/index.jsx",
   output: {
     path: path.join(__dirname, "public"),
-    filename: "breakingBad.bundle-[hash].js",
+    filename: "[name].bundle-[hash].js",
+    clean: true
   },
   resolve: {
     extensions: [".js", ".jsx"],
@@ -37,4 +38,11 @@ module.exports = {
       template: "./src/index.html",
     }),
   ],
+
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
+    runtimeChunk: 'single',
+  }
 };

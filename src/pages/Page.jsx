@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "regenerator-runtime/runtime";
 
 const Page = (props) => {
   useEffect(() => {

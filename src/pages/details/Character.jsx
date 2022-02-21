@@ -14,18 +14,18 @@ const Character = () => {
   const [loading, setLoading] = useState(true);
   const { id } = useParams();
 
-  async function fetch() {
-    await getDetailsCharacters(id)
-      .then(async (res) => {
-        setChar(res);
-        await getRandomQuote({ author: res.name }).then((res) => {
+  useEffect(() => {
+    setLoading(true)
+    getDetailsCharacters(id)
+    .then(async (res) => {
+      setChar(res);
+      if (!res.error) {
+        getRandomQuote({ author: res.name }).then((res) => {
           setQuote(res);
         });
-      })
-      .finally(() => setLoading(!loading));
-  }
-  useEffect(() => {
-    fetch();
+      }
+    })
+    .finally(() => setLoading(false));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
