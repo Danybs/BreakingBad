@@ -16,7 +16,6 @@ export function getAllCharacters() {
 export function getDetailsCharacters(id) {
   return (
     http
-      // .get(`https://en.wikipedia.org/404`)
       .get(
         `${config.app.version.default}${config.app.controller.characters}/${id}`
       )
